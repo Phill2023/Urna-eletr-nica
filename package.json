@@ -1,0 +1,18 @@
+{
+  "name": "urna_eletronica",
+  "version": "1.0.0",
+  "description": "urna eletronica para a população votar nos candidados a cargos publicos do governo em todo país",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "Phillipe de Souza Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node": "^18.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
